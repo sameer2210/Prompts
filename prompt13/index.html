@@ -13,26 +13,54 @@
 </head>
 
 <body>
-    <main class=" w-screen ">
-        <header class=" h-screen w-screen bg-gray-200 ">
-            <nav class="flex justify-around items-center mb-8 text-white bg-black p-4">
-                <i class="ri-menu-line text-2xl"></i>
-                <ul class="flex  gap-24 text-lg shadow-2xl shadow-white">
-                    <li><a href="#" class="hover:underline">Home</a></li>
-                    <li><a href="#" class="hover:underline">Promo</a></li>
-                    <li><a href="#" class="hover:underline">About Us</a></li>
-                    <li><a href="#" class="hover:underline">Contact</a></li>
-                </ul>
-                
-                <div class="search  flex items-center ">
-                    <button class="px-8 py-1 bg-white text-black text-xl rounded mr-8">sign in
-                    </button>
-                    <i class="ri-search-line text-2xl"></i>
-                </div>
+    <main class=" w-screen h-screen ">
+        <section class="min-h-screen w-screen grid lg:grid-col-1 grid-col-1 ">
+            <div
+                class="box2 bg-[url(https://plus.unsplash.com/premium_photo-1722111091429-dd3dc55979d3?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-cover bg-center  ">
+                <nav class="flex justify-around items-center mb-8 text-white bg-black p-4">
+                    <i class="ri-menu-line text-2xl"></i>
+                    <ul class="flex  gap-24 text-lg shadow-2xl shadow-white">
+                        <li><a href="#" class="hover:underline">Home</a></li>
+                        <li><a href="#" class="hover:underline">Promo</a></li>
+                        <li><a href="#" class="hover:underline">About Us</a></li>
+                        <li><a href="#" class="hover:underline">Contact Us</a></li>
+                    </ul>
 
-            </nav>
-            
-        </header>
+                    <div class="search  flex items-center ">
+                        <button class="px-6 py-1 bg-white text-black text-xl rounded mr-8">book now
+                        </button>
+                        <i class="ri-search-line text-2xl"></i>
+                    </div>
+                </nav>
+                <div class="grid grid-cols-1 md:grid-cols-2 p-4 rounded-lg ml-[7rem] shadow-lg max-w-6xl">
+                    <div class="flex flex-col justify-between space-y-4 text-black ">
+                        <h1 class="text-9xl font-bold text-black">E<span class="text-white">cliptica</span></h1>
+                        <div class="box"></div>
+
+                        <div>
+                            <span class="text-yellow-400 font-semibold">Release Date:</span>
+                            <span class="text-white bg-black">February 14, 2025</span>
+                        </div>
+                        <div class="flex space-x-4 mt-4">
+                            <button
+                                class="bg-yellow-400 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-300">Watch
+                                Trailer</button>
+                            <button
+                                class="border border-yellow-400 text-yellow-400 px-6 py-3 rounded-lg font-semibold hover:bg-yellow-400 hover:text-gray-900">Book
+                                Tickets</button>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="https://plus.unsplash.com/premium_photo-1722085060798-a58ffee1e165?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Ecliptica Poster" class="w-full h-auto rounded-lg shadow-lg object-cover">
+                        <div
+                            class="absolute top-4 left-4 bg-yellow-400 text-gray-900 px-4 py-2 rounded-lg font-semibold">
+                            IMAX Available
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     </main>
 
