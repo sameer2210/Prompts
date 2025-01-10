@@ -1,0 +1,121 @@
+<!-- Prompt 27:- Create a portfolio for a graphic designer, focusing on visual elements -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Graphic Designer</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body >
+  <main class="overflow-x-hidden bg-[#111111]">
+    <header class="h-screen w-screen bg-cover ">
+      <div class="flex items-center justify-center h-full px-6 text-center text-yellow-100">
+        <div class="space-y-6">
+          <h2 class="text-4xl font-semibold">Welcome to My Creative World!</h2>
+          <h1 class="text-5xl font-bold">I'm Sameer khan</h1>
+          <h3 class="text-4xl font-medium">Graphic Designer</h3>
+          <p class="text-lg mx-auto w-3/4">I’m a passionate graphic designer who thrives on turning ideas into visually stunning designs. With a flair for creativity and a deep understanding of design principles, I specialize in creating unique branding, captivating illustrations, and user-friendly digital experiences.</p>
+
+          <div class="flex justify-center gap-8 mt-16">
+            <button class="px-6 py-2 rounded-2xl border-2 border-yellow-100 text-xl text-yellow-100 bg-black hover:bg-white hover:text-black transition duration-300 ease-in-out">
+              Learn More <i class="ri-arrow-right-fill text-2xl"></i>
+            </button>
+            <section class="flex gap-8 items-center justify-center bg-yellow-100 px-6 py-2 rounded-2xl text-black text-xl">
+              <a href="#" class="hover:underline">Home</a>
+              <a href="#" class="hover:underline">About Me</a>
+              <a href="#" class="hover:underline">My Work</a>
+              <a href="#" class="hover:underline">Experience</a>
+              <a href="#" class="hover:underline">My Services</a>
+              <i class="ri-search-line text-3xl p-2 bg-white rounded-full"></i>
+            </section>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="about py-16">
+      <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 ">
+        <div class="profile flex justify-center">
+          <img src="https://images.unsplash.com/photo-1679167564671-f7b82c2b380b?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Henry Walter" class="object-cover object-top w-full h-full rounded-3xl">
+        </div>
+        <div class="about-text text-yellow-100">
+          <h1 class="text-4xl font-semibold mb-6">About Me</h1>
+          <p class="text-lg mb-4">As a passionate Graphic Designer, I thrive on transforming ideas into visually stunning creations. My expertise lies in crafting unique designs that capture attention and communicate effectively. From logo design and branding to digital illustrations and web graphics, I specialize in delivering tailored solutions for businesses and individuals.</p>
+          
+          <h2 class="text-4xl font-semibold mb-4">What I Offer</h2>
+          <ul class="list-disc list-inside text-lg">
+            <li>Creative Branding: Memorable logos and brand identities that make a lasting impact.</li>
+            <li>Eye-Catching Visuals: Captivating designs for websites, social media, and print.</li>
+            <li>Illustrations: Custom digital art that brings your ideas to life.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services bg-[#111111] py-16">
+      <div class="services-content text-yellow-100 text-center">
+        <h1 class="text-4xl font-bold mb-8 border-b-2 border-gray-400 pb-2">Our Services</h1>
+        <div class="space-y-6 px-6">
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer hover:text-yellow-300">Logo Design</summary>
+            <p class="mt-2 text-xl">Crafting unique and memorable logos that represent your brand’s identity.</p>
+          </details>
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer hover:text-yellow-300">Brand Identity</summary>
+            <p class="mt-2 text-xl">Developing a consistent visual identity for your brand including typography, color schemes, and design elements.</p>
+          </details>
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer hover:text-yellow-300">Web & Mobile Design</summary>
+            <p class="mt-2 text-xl">Creating visually engaging, user-friendly web and mobile designs with a focus on UI/UX.</p>
+          </details>
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer hover:text-yellow-300">Digital Illustrations</summary>
+            <p class="mt-2 text-xl">Custom illustrations that bring your ideas to life, from vector art to hand-drawn designs.</p>
+          </details>
+          <details class="group">
+            <summary class="text-2xl font-semibold cursor-pointer hover:text-yellow-300">Print Design</summary>
+            <p class="mt-2 text-xl">Designing print materials such as brochures, flyers, posters, and business cards that align with your brand.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Get in Touch Section -->
+    <section class="get-in-touch bg-[#242625] py-16">
+      <div class="max-w-4xl mx-auto bg-[#111111] p-8 rounded-lg shadow-lg text-yellow-100">
+        <h2 class="text-3xl font-bold text-center mb-6">Get in Touch</h2>
+        <p class="text-center mb-8">Feel free to reach out for any inquiries or collaborations.</p>
+        <form class="space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+              <label for="name" class="block text-sm font-semibold">Your Name</label>
+              <input type="text" id="name" name="name" class="w-full mt-2 p-3 border bg-black rounded-lg focus:ring-2 focus:ring-indigo-500" placeholder="Enter your name">
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-semibold">Your Email</label>
+              <input type="email" id="email" name="email" class="w-full mt-2 p-3 border bg-black rounded-lg focus:ring-2 focus:ring-indigo-500" placeholder="Enter your email">
+            </div>
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-semibold">Your Message</label>
+            <textarea id="message" name="message" rows="4" class="w-full mt-2 p-3 border bg-black rounded-lg focus:ring-2 focus:ring-indigo-500" placeholder="Enter your message"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="bg-yellow-100 text-black py-3 px-8 rounded-lg text-lg hover:bg-black hover:text-white hover:border-2 hover:border-white transition duration-300">
+              Send Message
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
