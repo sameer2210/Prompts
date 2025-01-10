@@ -1,12 +1,107 @@
+<!-- Prompt 20 :- Design a portfolio for a UX designer with case studies using responsive design. -->
+
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>Document</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">UI-UX<span>Dojo</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Designing Seamless Digital Experiences</h1>
+            <p>Hi, I'm <strong>sameer</strong>, a UX Designer & Full Stack Developer</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Hire Me</a>
+            </div>
+        </div>
+        <div class="photo">
+            <img src="https://images.unsplash.com/photo-1568585105565-e372998a195d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        </div>
+    </section>
+
+
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Design Skills</h3>
+                <ul>
+                    <li>Wireframing & Prototyping</li>
+                    <li>User Research</li>
+                    <li>Visual & Interaction Design</li>
+                    <li>Usability Testing</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Programming Skills</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Python, Java, C++</li>
+                    <li>React, Node.js</li>
+                    <li>SQL & NoSQL Databases</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Highlighted Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>School Management System</h3>
+                <p>Comprehensive platform for managing school operations and data.</p>
+            </div>
+            <div class="project-card">
+                <h3>Office Management System</h3>
+                <p>Streamlined office workflow and activity management system.</p>
+            </div>
+            <div class="project-card">
+                <h3>Music Mobile App</h3>
+                <p>User-friendly app for seamless music streaming experiences.</p>
+            </div>
+            <div class="project-card">
+                <h3>Currency Converter</h3>
+                <p>Real-time currency conversion with updated exchange rates.</p>
+            </div>
+            <div class="project-card">
+                <h3>E-Commerce Website</h3>
+                <p>Dynamic platform for online shopping with modern UI.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+
 </body>
+
 </html>
